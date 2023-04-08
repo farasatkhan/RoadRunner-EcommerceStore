@@ -284,26 +284,26 @@
             <ul class="navbar-nav flex-row navbar-items-custom-right">
                 <li class="nav-item">
                     <a href="/cart" class="nav-link">
-                        <img src="icons/cart.svg" alt="Cart" width="30" height="30" class="d-inline-block align-top">
+                        <img src="images/icons/cart.svg" alt="Cart" width="30" height="30" class="d-inline-block align-top">
                     </a>
                 </li>
                 <?php
                     if(Session::has('privilege') && Session::get('privilege') == 'user') {
                         print '<li class="nav-item">';
                             print '<a href="/profile" class="nav-link">';
-                                print '<img src="icons/sign-up-clear.svg" alt="Sign up" width="30" height="30" class="d-inline-block align-top">';
+                                print '<img src="images/icons/sign-up-clear.svg" alt="Sign up" width="30" height="30" class="d-inline-block align-top">';
                             print '</a>';
                         print '</li>';
                         print '<li class="nav-item">';
                             print '<a href="/logout" class="nav-link">';
-                                print '<img src="icons/logout.svg" alt="Logout" width="22" height="22" style="margin-top: 3px;" class="d-inline-block align-top">';
+                                print '<img src="images/icons/logout.svg" alt="Logout" width="22" height="22" style="margin-top: 3px;" class="d-inline-block align-top">';
                             print '</a>';
                         print '</li>';
                     } else if (Session::has('privilege') && Session::get('privilege') == 'admin')
                     {
                         print '<li class="nav-item">';
                         print '<a href="/logoutAdmin" class="nav-link">';
-                            print '<img src="icons/logout.svg" alt="Logout" width="22" height="22" style="margin-top: 3px;" class="d-inline-block align-top">';
+                            print '<img src="images/icons/logout.svg" alt="Logout" width="22" height="22" style="margin-top: 3px;" class="d-inline-block align-top">';
                         print '</a>';
                         print '</li>';
                     }
@@ -441,7 +441,7 @@ var newItem=
             <ul class="cartItem-elements-actions-custom p-0">
                 <li onclick="localStorage.removeItem(`+localStorage.key(i)+`); location.reload();">
                     <a href="#"  >
-                        <img src="icons/bin.svg" alt="Remove" width="21" height="21" class="d-inline-block align-top">
+                        <img src="images/icons/bin.svg" alt="Remove" width="21" height="21" class="d-inline-block align-top">
                         <span>Remove</span>
                     </a>
                 </li>

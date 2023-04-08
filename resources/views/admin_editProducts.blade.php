@@ -188,7 +188,7 @@
             <ul class="navbar-nav flex-row navbar-items-custom-right">
                 <li class="nav-item">
                     <a href="/cart" class="nav-link">
-                        <img src="icons/cart.svg" alt="Cart" width="30" height="30" class="d-inline-block align-top">
+                        <img src="images/icons/cart.svg" alt="Cart" width="30" height="30" class="d-inline-block align-top">
                     </a>
                 </li>
                 <?php
@@ -196,7 +196,7 @@
                     {
                         print '<li class="nav-item">';
                         print '<a href="/logoutAdmin" class="nav-link">';
-                            print '<img src="icons/logout.svg" alt="Logout" width="22" height="22" style="margin-top: 3px;" class="d-inline-block align-top">';
+                            print '<img src="images/icons/logout.svg" alt="Logout" width="22" height="22" style="margin-top: 3px;" class="d-inline-block align-top">';
                         print '</a>';
                         print '</li>';
                     }
