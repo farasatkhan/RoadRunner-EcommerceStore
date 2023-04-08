@@ -187,9 +187,9 @@
                 
                 <h2 class="asideSearchH">Date</h2>
                     <input type="radio" name="date" id="Latest To Oldest" value="Latest To Oldest">
-                    <label for="Low To High"> Latest To Oldest </label> <br>
+                    <label for="Latest To Oldest"> Latest To Oldest </label> <br>
                     <input type="radio" name="date" id="Oldest To Latest" value="Oldest To Latest">
-                    <label for="High To Low"> Oldest To Latest </label><br>
+                    <label for="Oldest To Latest"> Oldest To Latest </label><br>
             
                     <input type="submit" value="Filter" class="btn">
             </div>
