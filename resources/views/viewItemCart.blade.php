@@ -473,7 +473,7 @@ document.getElementById('subTotal').innerHTML=total;
                     document.cookie = i.toString()+"="+localStorage.key(i)+"|||"+localStorage.getItem(localStorage.key(i));+" expires=0; path=/";
             }
             localStorage.clear();
-            location.href='http://localhost:8000/';
+            location.href='/viewItemsPage.blade.php';
         
             } 
     </script>
