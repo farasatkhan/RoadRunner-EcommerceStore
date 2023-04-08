@@ -1,0 +1,50 @@
+/*----------------------------- nav bar ---------------*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+#nav{background-color: transparent; border: none;}
+.logo-title {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.navbar-properties-custom {
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.navbar-items-custom-right {
+    margin-right: 20px;
+}
+
+.navbar-items-custom-right > li {
+    margin-left: 25px;
+}
+
+.line-break-small-screen-custom {
+    width: 100%;
+    height: 1px;
+    color: black;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+
+    .line-break-small-screen-custom {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-items-custom-left {
+        margin-left: 20px;
+    }
+
+    .navbar-items-custom-left > li {
+        margin-right: 25px;
+    }
+}

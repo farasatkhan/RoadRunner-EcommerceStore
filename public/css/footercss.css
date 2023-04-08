@@ -1,0 +1,201 @@
+#footer{
+    background-color: rgb(27, 37, 44);
+    color: white;
+}
+#footerCol p[id=heading]{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#footerCol p{
+    margin-top: 1;
+    margin-bottom: 1;
+    font-weight: 100;
+}
+footer i{font-size:xx-large; }
+#hr{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-color: white;
+    border-top: solid 5px ;
+    background-color: white;
+}
+#logo{
+    font-weight: bolder;
+    font-size: large;
+}
+#privacypolicy{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+footer a:active{color:white}
+footer a:link{color:white}
+footer a:visited{color:white}
+/*-------------------------------------------------   card    -------------------------------------------------------------------*/
+.card1{ border:none; background-color: rgb(245, 245, 245); display: inline-block; height: 270px; width: 276px; 
+    margin: 0px 0px 10px 10px;  }
+.card1 img{margin: 10px 20px 10px 20px; width:250px}
+.card1 h3{margin:10px 0px 0px 20px; } 
+.card1 p{margin:0px 10px 10px 20px;text-overflow: ellipsis; overflow: hidden;white-space:nowrap; }  
+.card1 a:active{color:black;}
+.card1 a:link{color:black; text-decoration: none;}
+.card1 a:visited{color:black;}
+.card1 a:hover{color:rgb(255, 0, 0)}
+/*--------------------------------------------------  revirew old   ------------------------------------------------------------------*/
+
+.review .name{ font-weight: 300px;font-size: 30px; margin: 0px; }
+.review .title{ font-weight: 300px;font-size: 30px; margin: 20px 0px 5px 0px ;  }
+.review .date{ font-weight: 200px;font-size: 15px;margin: 0px;}
+.review i{font-size: medium; color: gold;}
+.reviewStars{align-items: center; display: flex; align-items: center; }
+.reviewName{align-items: left; display: flex; flex-direction: column ; justify-content: center;}
+.reviewContent{align-items: center; }
+.review hr{    height: 0px;
+    border: none;
+    border-top: 3px solid rgb(233, 222, 222);}
+
+
+/*------------------------------------------------------ create review-----------------------------------------------------------------------*/
+
+.createReview .name{ font-weight: 300px;font-size: 30px; margin: 0px; }
+.createReview .title{ font-weight: 300px;font-size: 30px; margin: 20px 0px 5px 0px ;  text-align:left ;}
+.createReview .date{ font-weight: 200px;font-size: 15px;margin: 0px;}
+.createReview i{font-size: medium; color: gold;}
+.reviewStars{align-items: center; display: flex; align-items: center; }
+.reviewName{align-items: left; display: flex; flex-direction: column ; justify-content: center;}
+.reviewContent{ margin: 10px 0px 10px 0px; }
+.createReview form{align-items: right; display: flex; flex-direction: column ; justify-content: center; margin: 10px 0px 10px 0px; }
+.createReview form input{width: 100px;border-radius: 200px; }
+.createReview hr{    height: 0px;
+    border: none;
+    border-top: 3px solid rgb(233, 222, 222);}
+.createReview button{width: 300px; border-radius: 200px; }
+.createReview #reviewBox{min-width: 100%;border: 2px solid black;}
+.createReview form{width: 100%; margin: 0%; padding: 0%;}
+.createReview form input{margin: 0px; padding: 0px; margin-top: 10px;}
+.createReview form input:focus{outline-color: red;}
+
+#submitReview{width: 100%;}
+#addReviewStats{margin: 20px 0px 20px 20px;}
+#addReviewFrom{display: none;margin-top: 20px;}
+/*-------------------------------------------- form Login----------------------------------------------------------*/
+.subLogin{background-color: rgb(245, 245, 245); }
+#login form{width: 100%;display: flex; flex-direction:column ; align-items: center; justify-content: center; margin: 100px 0px 100px 0px;}
+.formTextFeild{border: none;border-bottom: 3px solid black; background-color: rgb(245, 245, 245); width: 300px; margin: 20px 0px 20px 0px ;}
+.formTextFeild:focus{border: none;border-bottom: 3px solid red;outline: none;}
+.btn1{border-radius: 0%;width: 300px; background-color: red; border: none; color: white ; border-radius: 0%; font-weight: 500;margin: 20px 0px 20px 0px ;}
+#login a{ font-size: small; }
+#login a:link{ color: black; text-decoration: none;}
+#login a:visited{ color: black; text-decoration: none; }
+#login a:hover{ color: red; text-decoration: none; }
+
+/*-------------------------------------------- view Proifle----------------------------------------------------------*/
+
+
+.subProfile{background-color: rgb(245, 245, 245); margin: 50px 0px; padding:50px 0px;  }
+.subProfile h4{color: red; font-weight: 700;}
+.subProfile p{padding-left: 30px;}
+
+/*-------------------------------------------- form editProfile----------------------------------------------------------*/
+.subLogin{background-color: rgb(245, 245, 245); }
+#login form{width: 100%;display: flex; flex-direction:column ; align-items: center; justify-content: center; margin: 100px 0px 100px 0px;}
+.formTextFeild{border: none;border-bottom: 3px solid black; background-color: rgb(245, 245, 245); width: 300px; margin: 20px 0px 20px 0px ;}
+.formTextFeild:focus{border: none;border-bottom: 3px solid red;outline: none;}
+.btn1{border-radius: 0%;width: 300px; background-color: red;
+     border: none; color: white ; border-radius: 0%; font-weight: 500;
+     margin: 20px 0px 20px 0px ;}
+#login a{ font-size: small; }
+#login a:link{ color: black; text-decoration: none;}
+#login a:visited{ color: black; text-decoration: none; }
+#login a:hover{ color: red; text-decoration: none; }
+/*-------------------------------------------- Admin Search Result cars----------------------------------------------------------*/
+.searchResult{background-color: rgb(245, 245, 245); height: 200px; width: 250px; margin: 10px;}
+.searchResultArticle,.searchResultArticle div {display: inline-block;}
+.topTextSearchResult{margin: 10px 0px;}
+.searchResultArticle a{height: 100%;}
+.searchResultArticle a div{display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.searchResultArticle a:active{color:black;}
+.searchResultArticle a:link{color:black; text-decoration: none;}
+.searchResultArticle a:visited{color:black;}
+.searchResultArticle a:hover{color:rgb(255, 0, 0)}
+
+/*---------------------------------------------------search aside-----------------------------------------------*/
+#searchAside{
+    width:300px;
+    display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+.asideSearchH{
+    font-weight: 700;
+    color: rgb(160, 154, 154);
+}
+#searchAside hr{color: black; height: 0px; border: none; border-top: 1px solid black; width:250px;}
+#searchAside form{display: flex; justify-content: center; flex-direction: column; align-items: center;}
+#searchAside input:focus{outline-color: red;}
+#searchAside button{display: none;}
+
+#searchAside .formTextFeild{border: none;border-bottom: 2px solid black;  width: 270px; margin: 20px 0px 20px 0px ; background-color: white;}
+#searchAside input[type=submit]{border-radius: 0px;width: 230px; background-color: red; border: none; color: white ; border-radius: 0px; font-weight: 500;margin: 20px 0px 20px 20px ;}
+#searchAside .formTextFeild:focus{border: none;border-bottom: 3px solid red;outline: none;}
+@media screen and (max-width:991px){
+    #searchAside{float: none;width: 100%; align-content: center; align-items: center; justify-items: center; display: flex;flex-direction: column; justify-content: center; background-color: rgb(245, 245, 245);}
+    #searchAside button{display:block ;}
+    #searchAsideMainDiv{display: none; }
+    #searchAsideMainDiv{width: 90%;}
+    #searchAsideMainDiv hr{width: 90%;}
+    #searchAsideMainDiv input[type=text]{background-color: rgb(245, 245, 245);}
+    
+
+}
+
+/*------------------------------------------------- view items page----------------------------------------------------*/
+#cardsBox{display: inline-block;width: 73%;  text-align: center; align-items: center; align-content: center;justify-content: center; justify-items: center;}
+@media screen and (max-width:991px) {
+    #cardsBox{width:100%; }
+} 
+@media screen  and (min-width:992px)and (max-width:1100px){
+    #cardsBox{ width:69%; }
+}
+
+/*-------------------------------------------------- recommendation cards -------------------------*/
+.recommendationCard{ display: inline-block;background-repeat: no-repeat; height: 350px;background-size: 300px 350px; font-weight: 600; margin: 10px 0px 10px 10px;  width: 300px; }
+.recommendationCard a{width: 100%; height: 100%; color: white; }
+.recommendationCard a div{ display: flex;
+    flex-direction: column; align-items: flex-start; justify-content: flex-end; align-content: flex-start;
+     justify-items: flex-end;width: inherit; height: inherit; margin-left: 15px;  }
+.recommendationCard a:link{ color: white; }
+.recommendationCard a:active{ color: white; }
+.recommendationCard a:visited{ color: white; }
+.recommendationCard a:hover{ color: red; border-color: red;}
+.recommendationCard p{ border-top: 5px solid white; padding-top: 3px; display: inline-block;}
+
+
+
+/*------------------------------------------------- landing page --------------------------------------------------------*/
+
+
+#upperDiv{background-size: 100% auto;background-image:url('../images/landing/img-landing-large.jpg'); background-repeat:no-repeat ; margin: 0%; padding: 0% ; width: 100%; color: white;}
+@media screen and (min-width:720px) and (max-width:959px) {#upperDiv{background-image:url('../images/landing/img-landing-md.jpg'); }}
+@media screen and (max-width:719px){#upperDiv{background-image:url('../images/landing/img-landing-sm.jpg');}}
+#upperDiv h1{font-weight: 900; color: white; width: 430px; font-variant: small-caps; }
+#upperDiv #upper{margin-top: 200px; }
+#upperDiv #upperDivBtn{margin-bottom: 200px; }
+#recommendationP{text-align: center; font-weight: 900; color: white;width: 100%;}
+#recommendationP h1{text-align: center; font-weight: 900; color: white;width: 100%;}
+#upperDiv hr{color: white;width: 100%; height: 10px; border-top: 5px solid white;}
+
+#upperDiv button{ font-weight: 700; }
+#navWhite{color:white; margin-bottom: 20px;}
+#navBlack{color:rgb(0, 0, 0); margin-bottom: 20px;}
+#midDiv{background-color: rgb(44, 44, 46); text-align: center; width: 100%; display: flex;
+    flex-direction: column; align-items: center; justify-content: center; align-content: center;
+     justify-items: center;height: inherit; color: white; min-height: 200px;}
+#middleImg{padding:0% ; margin: 0%;}
+#arrivals{text-align: center;}
+#h1{color: grey; padding: 40px 0px; font-weight: 900;}
+#signUpDiv{border: 3px solid red;  border-radius: 30px; margin: 20px 0px; margin-left: 20px; margin-right: 10px;}
+#signUpDiv h1{margin-top: 20px;}
+#signUpDiv button{margin-bottom: 20px;}
+

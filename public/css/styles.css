@@ -1,0 +1,147 @@
+#footer{
+    background-color: rgb(27, 37, 44);
+    color: white;
+}
+#footerCol p[id=heading]{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#footerCol p{
+    margin-top: 1;
+    margin-bottom: 1;
+    font-weight: 100;
+}
+footer i{font-size:xx-large; }
+#hr{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-color: white;
+    border-top: solid 5px ;
+    background-color: white;
+}
+#logo{
+    font-weight: bolder;
+    font-size: large;
+}
+#privacypolicy{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+footer a:active{color:white}
+footer a:link{color:white}
+footer a:visited{color:white}
+/*-------------------------------------------------   card    -------------------------------------------------------------------*/
+.card1{ border:none; background-color: rgb(245, 245, 245); display: inline-block; height: 270px; width: 276px; 
+    margin: 0px 0px 10px 10px;  }
+.card1 img{margin: 10px 20px 10px 20px; width:250px}
+.card1 h3{margin:10px 0px 0px 20px; } 
+.card1 p{margin:0px 10px 10px 20px;text-overflow: ellipsis; overflow: hidden;white-space:nowrap; }  
+.card1 a:active{color:black;}
+.card1 a:link{color:black; text-decoration: none;}
+.card1 a:visited{color:black;}
+.card1 a:hover{color:rgb(255, 0, 0)}
+/*--------------------------------------------------  revirew old   ------------------------------------------------------------------*/
+
+.review .name{ font-weight: 300px;font-size: 30px; margin: 0px; }
+.review .title{ font-weight: 300px;font-size: 30px; margin: 20px 0px 5px 0px ;  }
+.review .date{ font-weight: 200px;font-size: 15px;margin: 0px;}
+.review i{font-size: medium; color: gold;}
+.reviewStars{align-items: center; display: flex; align-items: center; }
+.reviewName{align-items: left; display: flex; flex-direction: column ; justify-content: center;}
+.reviewContent{align-items: center; }
+.review hr{    height: 0px;
+    border: none;
+    border-top: 3px solid rgb(233, 222, 222);}
+
+/*------------------------------------------------------ create review-----------------------------------------------------------------------*/
+
+.createReview .name{ font-weight: 300px;font-size: 30px; margin: 0px; }
+.createReview .title{ font-weight: 300px;font-size: 30px; margin: 20px 0px 5px 0px ;  text-align:left ;}
+.createReview .date{ font-weight: 200px;font-size: 15px;margin: 0px;}
+.createReview i{font-size: medium; color: gold;}
+.reviewStars{align-items: center; display: flex; align-items: center; }
+.reviewName{align-items: left; display: flex; flex-direction: column ; justify-content: center;}
+.reviewContent{ margin: 10px 0px 10px 0px; }
+.createReview form{align-items: right; display: flex; flex-direction: column ; justify-content: center; margin: 10px 0px 10px 0px; }
+.createReview form input{width: 100px;border-radius: 200px; }
+.createReview hr{    height: 0px;
+    border: none;
+    border-top: 3px solid rgb(233, 222, 222);}
+.createReview button{width: 300px; border-radius: 200px; }
+.createReview #reviewBox{min-width: 100%;border: 2px solid black;}
+.createReview form{width: 100%; margin: 0%; padding: 0%;}
+.createReview form input{margin: 0px; padding: 0px; margin-top: 10px;}
+.createReview form input:focus{outline-color: red;}
+
+#submitReview{width: 100%;}
+#addReviewStats{margin: 20px 0px 20px 20px;}
+#addReviewFrom{display: none;margin-top: 20px;}
+/*-------------------------------------------- form Login----------------------------------------------------------*/
+.subLogin{background-color: rgb(245, 245, 245); margin-top: 50px; margin-bottom: 100px;}
+#login form{width: 100%;display: flex; flex-direction:column ; align-items: center; justify-content: center; margin: 100px 0px 100px 0px;}
+.formTextFeild{border: none;border-bottom: 3px solid black; background-color: rgb(245, 245, 245); width: 300px; margin: 20px 0px 20px 0px ;}
+.formTextFeild:focus{border: none;border-bottom: 3px solid red;outline: none;}
+.btn1{border-radius: 0%;width: 300px; background-color: red; border: none; color: white ; border-radius: 0%; font-weight: 500;margin: 20px 0px 20px 0px ;}
+#login a{ font-size: small; }
+#login a:link{ color: black; text-decoration: none;}
+#login a:visited{ color: black; text-decoration: none; }
+#login a:hover{ color: red; text-decoration: none; }
+
+/*-------------------------------------------- Modified form Login ---------------------------------------------*/
+.btn1 {
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.subLogin {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+/*---------------------------------------------------search aside-----------------------------------------------*/
+#searchAside{
+    width:300px;
+    display: inline-block;
+    float: left;
+}
+.asideSearchH{
+    font-weight: 700;
+    color: rgb(160, 154, 154);
+}
+#searchAside hr{color: black; height: 0px; border: none; border-top: 1px solid black; width:250px;}
+#searchAside form{display: flex; justify-content: center; flex-direction: column; align-items: center;}
+#searchAside input:focus{outline-color: red;}
+#searchAside button{display: none;}
+
+#searchAside .formTextFeild{border: none;border-bottom: 2px solid black;  width: 270px; margin: 20px 0px 20px 0px ; background-color: white;}
+#searchAside input[type=submit]{border-radius: 0px;width: 230px; background-color: red; border: none; color: white ; border-radius: 0px; font-weight: 500;margin: 20px 0px 20px 20px ;}
+#searchAside .formTextFeild:focus{border: none;border-bottom: 3px solid red;outline: none;}
+@media screen and (max-width:991px){
+    #searchAside{float: none;width: 100%; align-content: center; align-items: center; justify-items: center; display: flex;flex-direction: column; justify-content: center; background-color: rgb(245, 245, 245);}
+    #searchAside button{display:block ;}
+    #searchAsideMainDiv{display: none; }
+    #searchAsideMainDiv{width: 90%;}
+    #searchAsideMainDiv hr{width: 90%;}
+    #searchAsideMainDiv input[type=text]{background-color: rgb(245, 245, 245);}
+    
+
+}
+
+/*------------------------------------------------- view items page----------------------------------------------------*/
+#cardsBox{display: inline-block;width: 73%;  text-align: center; align-items: center; align-content: center;justify-content: center; justify-items: center;}
+@media screen and (max-width:991px) {
+    #cardsBox{width:100%; }
+} 
+@media screen  and (min-width:992px)and (max-width:1100px){
+    #cardsBox{ width:69%; }
+}
+
+
