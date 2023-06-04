@@ -139,7 +139,7 @@
                         </form>
                         <?php
                             if (!empty($error)){
-                                print '<p style="color:red; text-align:center;"> LOGIN FAILED: '. $error .'</p>';
+                                print '<p id="errorMsg" style="color:red; text-align:center;"> LOGIN FAILED: '. $error .'</p>';
                             }else{}
                         ?>
                     </div>
