@@ -5,7 +5,7 @@ services:
     container_name: laravel_app
     image: farasatkhan/roadrunner-ecommerce-store-laravel:latest
     ports:
-      - 9000:80
+      - 9005:80
     networks:
       - my-network
   
@@ -18,14 +18,14 @@ services:
       - ./roadrunner_db.sql:/docker-entrypoint-initdb.d/roadrunner.sql
       - mysql_data:/var/lib/mysql
     ports:
-    - 3306:3306
+    - 9006:3306
     networks:
       - my-network
   
   phpmyadmin:
     image: phpmyadmin:latest
     ports:
-      - 9002:80
+      - 9007:80
     environment:
       PMA_HOST: mysql_db
     depends_on:
